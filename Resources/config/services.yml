@@ -1,4 +1,4 @@
 services:
      amazon_sns_client:
          class:     Jplarar\SNSBundle\Services\AmazonSNSClient
-         arguments: [%amazon_ses_key%, %amazon_ses_secret%, %amazon_ses_region%]
+         arguments: [%amazon_sns_key%, %amazon_sns_secret%, %amazon_sns_region%]
