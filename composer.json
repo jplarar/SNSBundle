@@ -1,0 +1,39 @@
+{
+    "name": "jplarar/sns-bundle",
+    "description": "A simple Symfony2 bundle for the API for AWS SNS.",
+    "type": "symfony-bundle",
+    "keywords": [
+        "jplarar",
+        "sns",
+        "aws-sdk"
+    ],
+    "homepage": "https://github.com/jplarar/SNSBundle",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Juan Paulo Lara",
+        "email": "jplarar@gmail.com",
+        "role": "developer"
+      }
+    ],
+    "require": {
+      "php": ">=5.5",
+      "symfony/config": "^2.0 || ^3.0",
+      "symfony/dependency-injection": "^2.0 || ^3.0",
+      "symfony/framework-bundle": "^2.0 || ^3.0",
+      "symfony/http-foundation": "^2.0 || ^3.0",
+      "symfony/http-kernel": "^2.0 || ^3.0",
+      "symfony/options-resolver": "^2.0 || ^3.0",
+      "symfony/security": "^2.0 || ^3.0",
+      "symfony/validator": "^2.0 || ^3.0",
+      "aws/aws-sdk-php": "^3.0"
+    },
+    "suggest": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+      "psr-0": { "Jplarar\\SNSBundle": "" }
+    },
+    "target-dir": "Jplarar/SNSBundle"
+}
