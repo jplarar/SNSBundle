@@ -65,7 +65,7 @@ class AmazonSNSClient
             $result = $this->service->publish($args);
             return $result;
         } catch (SnsException $error) {
-            throw new \Exception("The sms was not sent. Error message: ".$error->getAwsErrorMessage()."\n");
+            throw new \Exception("The sms was not sent. Error message: ".$error->getMessage());
         }
     }
 }
